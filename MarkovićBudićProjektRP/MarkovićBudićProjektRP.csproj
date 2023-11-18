@@ -46,23 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoginBlagajna.cs">
+    <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginBlagajna.Designer.cs">
-      <DependentUpon>LoginBlagajna.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LoginObracun.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginObracun.Designer.cs">
-      <DependentUpon>LoginObracun.cs</DependentUpon>
-    </Compile>
-    <Compile Include="LoginAdmin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="LoginAdmin.Designer.cs">
-      <DependentUpon>LoginAdmin.cs</DependentUpon>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -72,14 +60,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="LoginBlagajna.resx">
-      <DependentUpon>LoginBlagajna.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LoginObracun.resx">
-      <DependentUpon>LoginObracun.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LoginAdmin.resx">
-      <DependentUpon>LoginAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>

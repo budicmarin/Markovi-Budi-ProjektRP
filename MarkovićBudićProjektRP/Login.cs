@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace MarkovićBudićProjektRP
 {
-    public partial class LoginAdmin : Form
+    public partial class Login : Form
     {
-        public LoginAdmin()
+        public Login()
         {
             InitializeComponent();
+        }
+
+        private void btLogin_Click(object sender, EventArgs e)
+        {
+            if(cbAdmin.Checked) { }
+            else if(cbBlagajna.Checked) { }
+            else if(cbObracun.Checked){ }
         }
     }
 }

@@ -17,22 +17,10 @@ namespace MarkovićBudićProjektRP
             InitializeComponent();
         }
 
-        private void btBlagajna_Click(object sender, EventArgs e)
+        private void btLogin_Click(object sender, EventArgs e)
         {
-            LoginBlagajna loginBlagajna=new LoginBlagajna();
-            loginBlagajna.Show();
-        }
-
-        private void btAdmin_Click(object sender, EventArgs e)
-        {
-            LoginAdmin loginAdmin = new LoginAdmin();
-            loginAdmin.Show();
-        }
-
-        private void btObracun_Click(object sender, EventArgs e)
-        {
-            LoginObracun loginObracun=new LoginObracun();
-            loginObracun.Show();
+            Login login = new Login();
+            login.Show();
         }
     }
 }
